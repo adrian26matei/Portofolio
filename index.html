@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+
+    </head>
+
+  <body>
+  
+    <!-- NAV START-->
+    <nav id="navbar" class="nav">
+
+      <ul class="nav-list">
+
+        <li>
+          <a href="#welcome-section">Über mich</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projekte</a>
+        </li>
+
+        <li>
+          <a href="#contact">Kontakt</a>
+        </li>
+
+      </ul>
+
+    </nav>
+    <!-- NAV END-->
+
+
+    <!-- WELCOME START-->
+  
+    <section id="welcome-section" class="welcome-section">
+      <h1>Servus. Ich bin Adrian</h1>
+      <p>und ich lerne Programmierung</p>
+    </section>
+
+    <!-- WELCOME END-->
+  
+
+    <!-- PROJECTS START-->
+  
+    <section id="projects" class="projects-section">
+
+      <h2 class="projects-section-header">
+        Hier sind ein paar Projekte, die ich Entwickelt habe
+      </h2>
+
+      <div class="projects-grid">
+
+        <a href="#" target="_blank" class="project project-tile">
+          <img class="project-image" src="blank_img.png" alt="A Placeholder Image">
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            WIP
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+
+        <a href="#" target="_blank" class="project project-tile">
+          <img class="project-image" src="blank_img.png" alt="A Placeholder Image">
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            WIP
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+
+        <a href="#" target="_blank" class="project project-tile">
+          <img class="project-image" src="blank_img.png" alt="A Placeholder Image">
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              WIP
+              <span class="code">&#47;&gt;</span>
+            </p>
+        </a>
+
+        <a href="#" target="_blank" class="project project-tile">
+          <img class="project-image" src="blank_img.png" alt="A Placeholder Image">
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            WIP
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+      
+      </div>
+
+      <a href="#" class="btn btn-show-all" target="_blank">
+        Zeig alle <i class="fas fa-chevron-right"></i>
+      </a>
+
+    </section>
+
+    <!-- PROJECTS END-->
+
+    <!-- CONTACT START-->
+  
+    <section id="contact" class="contact-section">
+    
+      <div class="contact-section-header">
+        <h2>Lass uns verbinden...</h2>
+      </div>
+
+      <div class="contact-links">
+        <a href="https://x.com/matei26adrian" target="_blank" class="btn contact-details">
+          <i class="fab fa-twitter"></i> X.com
+        </a>
+
+        <a id="profile-link" href="https://github.com/adrian26matei" target="_blank" class="btn contact-details">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+
+        <a id="profile-link" href="https://www.linkedin.com/in/dragos-adrian-matei-033478a4/" target="_blank" class="btn contact-details">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+
+    </section>
+
+  <!-- CONTACT END-->
+
+  <!-- FOOTER START-->
+
+    <footer>
+      <p>**Dies ist nur ein gefälschtes Portfolio. Alle angegebenen Projekte und Kontaktdaten
+        sind nicht echt.**</p>
+    </footer>
+
+    <!-- FOOTER END-->
+
+    <!--<a href="#welcome-section" class="btn btn-to-top" target="" id="btn-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </a> -->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script>
+      //Get the button:
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>
+    
+</body>
+
+</html>
+
